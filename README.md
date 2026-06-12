@@ -4,7 +4,7 @@ This is a 2D top-down local multiplayer game developed using Godot 4.3.
 
 ## Pending / Unfinished Tasks
 
-* **Project Setup**: Initialize the Godot 4.3 project structure.
+* **Project Setup**: Initialize the Godot 4.3 project structure. (Partially completed: added project.godot)
 * **Game Assets**: Import or create game assets (sprites, sounds, music).
 * **Player Controller**: Implement movement and interaction logic for players.
 * **Local Multiplayer**: Setup input mapping for multiple controllers/keyboards.
@@ -14,4 +14,4 @@ This is a 2D top-down local multiplayer game developed using Godot 4.3.
 
 ## Compilation
 
-Currently, the project only contains this README and a LICENSE file. There are no source code or Godot project files to compile yet.
+The `project.godot` file is initialized, ensuring basic project compatibility, but there are no source files to compile yet.

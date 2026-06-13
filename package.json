@@ -1,0 +1,21 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "This is a 2D top-down local multiplayer game originally planned for Godot, but pivoted to an HTML5 Canvas game using Phaser 3.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leon123858/games.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/leon123858/games/issues"
+  },
+  "homepage": "https://github.com/leon123858/games#readme"
+}

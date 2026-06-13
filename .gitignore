@@ -1,4 +1,2 @@
-# Godot-specific ignores
-.godot/
-*.translation
-*.gdignore
+node_modules/
+.DS_Store

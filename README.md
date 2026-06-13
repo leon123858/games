@@ -1,17 +1,18 @@
-# Boba Frenzy
+# Boba Frenzy (Web Version)
 
-This is a 2D top-down local multiplayer game developed using Godot 4.3.
+This is a 2D top-down local multiplayer game originally planned for Godot, but pivoted to an HTML5 Canvas game using Phaser 3.
 
-## Pending / Unfinished Tasks
+## Implemented Features
 
-* **Project Setup**: Initialize the Godot 4.3 project structure. (Partially completed: added project.godot)
-* **[Game Assets](issues/01-game-assets.md)**: Import or create game assets (sprites, sounds, music).
-* **[Player Controller](issues/02-player-controller.md)**: Implement movement and interaction logic for players.
-* **[Local Multiplayer](issues/03-local-multiplayer.md)**: Setup input mapping for multiple controllers/keyboards.
-* **[Core Mechanics](issues/04-core-mechanics.md)**: Implement the main gameplay loop (collecting boba, scoring, etc.).
-* **[Level Design](issues/05-level-design.md)**: Create playable arenas.
-* **[UI/UX](issues/06-ui-ux.md)**: Add main menu, pause menu, and game over screens.
+* **Project Setup**: Initialized Phaser 3 HTML5 environment.
+* **Game Assets**: Basic graphics generated using Phaser shape primitives.
+* **Player Controller**: 8-way movement and collisions implemented for two players.
+* **Local Multiplayer**: Player 1 uses WASD; Player 2 uses Arrow keys.
+* **Core Mechanics**: Boba spawns periodically. Players collide to collect them and gain points.
+* **Level Design**: Arena with static block obstacles.
+* **UI/UX**: Score HUD, Round timer, Main Menu, and Game Over flow.
 
-## Compilation
+## Compilation / Running
 
-The `project.godot` file is initialized, ensuring basic project compatibility, but there are no source files to compile yet.
+To play, simply serve the directory with an HTTP server and open `index.html`.
+e.g., `python3 -m http.server 8000` or `npx serve .`
